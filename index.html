@@ -23,6 +23,19 @@
         flex: 1;
       }
     </style>
+    <style>
+      /* 调小名字标签字号（14px -> 10px，行高36 -> 28，圆角18 -> 14） */
+      div[style*="rgba(135, 206, 250"] {
+        height: 28px !important;
+        border-radius: 14px !important;
+      }
+      div[style*="min-width: 108px"] {
+        height: 28px !important;
+      }
+      div[style*="min-width: 108px"] div[dir="auto"] {
+        font-size: 10px !important;
+      }
+    </style>
   <link rel="icon" href="/mulan_xinhuo_hugang/favicon.ico" /></head>
 
   <body>
