@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp.*
+.yarn/
+
+# Expo
+.expo/
+dist/
+web-build/
+.expo-shared/
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Deploy: build-emitted icon assets live under assets/node_modules and must be tracked
+!assets/node_modules/
+!assets/node_modules/**
